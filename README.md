@@ -70,7 +70,7 @@ scMultiverse gives that quantification:
 Python 3.10 or newer is required. Neither training nor inference uses a GPU.
 
 ```bash
-git clone https://github.com/sarwanpasha/cMultiverse/scmultiverse.git
+git clone https://github.com/sarwanpasha/cMultiverse.git
 cd scmultiverse
 pip install -r requirements.txt
 pip install -e .
