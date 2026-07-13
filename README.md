@@ -70,7 +70,7 @@ scMultiverse gives that quantification:
 Python 3.10 or newer is required. Neither training nor inference uses a GPU.
 
 ```bash
-git clone https://github.com/<your-org>/scmultiverse.git
+git clone https://github.com/sarwanpasha/cMultiverse/scmultiverse.git
 cd scmultiverse
 pip install -r requirements.txt
 pip install -e .
@@ -426,14 +426,6 @@ unusual batch structure.
 method and register it in the sampler benchmark. It will be compared to
 Latin hypercube, BALD, and scMultiverse's uncertainty-targeted acquisition on
 the same three synthetic-response experiments.
-
----
-
-## Citation
-
-If you use scMultiverse in your work, please cite the accompanying manuscript.
-A `CITATION.cff` is provided; GitHub renders it automatically as a "Cite this
-repository" button.
 
 ---
 
