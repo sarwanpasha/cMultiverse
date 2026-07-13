@@ -110,7 +110,6 @@ scmultiverse/
 ├── requirements.txt
 ├── setup.py
 ├── LICENSE
-├── CITATION.cff
 └── README.md
 ```
 
