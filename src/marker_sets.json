@@ -1,0 +1,238 @@
+{
+ "pbmc": {
+  "classical_monocyte": {
+   "regex": "CD14-positive monocyte|classical monocyte",
+   "exclude": "non-classical|CD16|CD14-low",
+   "genes": [
+    "CD14",
+    "LYZ",
+    "S100A8",
+    "S100A9",
+    "VCAN",
+    "FCN1"
+   ]
+  },
+  "nonclassical_monocyte": {
+   "regex": "CD16-positive monocyte|non-classical monocyte|CD14-low",
+   "genes": [
+    "FCGR3A",
+    "MS4A7",
+    "C1QA",
+    "C1QB",
+    "LST1",
+    "CDKN1C"
+   ]
+  },
+  "cd4_t": {
+   "regex": "CD4-positive",
+   "genes": [
+    "CD3E",
+    "IL7R",
+    "CCR7",
+    "TCF7",
+    "LEF1",
+    "CD4"
+   ]
+  },
+  "cd8_t": {
+   "regex": "CD8-positive",
+   "genes": [
+    "CD3E",
+    "CD8A",
+    "CD8B",
+    "GZMK"
+   ]
+  },
+  "nk": {
+   "regex": "natural killer",
+   "exclude": "T cell",
+   "genes": [
+    "NKG7",
+    "GNLY",
+    "KLRD1",
+    "PRF1",
+    "NCAM1"
+   ]
+  },
+  "b": {
+   "regex": "B cell",
+   "exclude": "plasma",
+   "genes": [
+    "MS4A1",
+    "CD79A",
+    "CD79B",
+    "BANK1",
+    "CD19"
+   ]
+  },
+  "plasma": {
+   "regex": "plasma cell|plasmablast",
+   "genes": [
+    "MZB1",
+    "JCHAIN",
+    "TNFRSF17",
+    "CD38"
+   ]
+  },
+  "pdc": {
+   "regex": "plasmacytoid",
+   "genes": [
+    "LILRA4",
+    "IL3RA",
+    "CLEC4C"
+   ]
+  },
+  "cdc": {
+   "regex": "conventional dendritic|myeloid dendritic|^dendritic cell|CD1c",
+   "exclude": "plasmacytoid",
+   "genes": [
+    "FCER1A",
+    "CLEC10A",
+    "CD1C"
+   ]
+  },
+  "platelet": {
+   "regex": "platelet|megakaryocyte",
+   "genes": [
+    "PPBP",
+    "PF4",
+    "GP9"
+   ]
+  },
+  "hspc": {
+   "regex": "stem cell|progenitor",
+   "genes": [
+    "CD34",
+    "SPINK2",
+    "CRHBP",
+    "GATA1",
+    "MPO"
+   ]
+  }
+ },
+ "hlca": {
+  "at2": {
+   "regex": "type II pneumocyte|alveolar type 2",
+   "genes": [
+    "SFTPC",
+    "SFTPB",
+    "NAPSA",
+    "LAMP3"
+   ]
+  },
+  "at1": {
+   "regex": "type I pneumocyte|alveolar type 1",
+   "exclude": "fibroblast",
+   "genes": [
+    "AGER",
+    "RTKN2",
+    "CLIC5"
+   ]
+  },
+  "ciliated": {
+   "regex": "ciliated",
+   "genes": [
+    "FOXJ1",
+    "CAPS",
+    "TPPP3"
+   ]
+  },
+  "club_secretory": {
+   "regex": "club cell|secretory|goblet",
+   "genes": [
+    "SCGB1A1",
+    "SCGB3A1"
+   ]
+  },
+  "basal": {
+   "regex": "basal cell",
+   "genes": [
+    "KRT5",
+    "TP63",
+    "KRT15"
+   ]
+  },
+  "alveolar_macrophage": {
+   "regex": "alveolar macrophage",
+   "genes": [
+    "MARCO",
+    "FABP4",
+    "INHBA"
+   ]
+  },
+  "monocyte": {
+   "regex": "monocyte",
+   "genes": [
+    "FCN1",
+    "S100A8",
+    "CD14"
+   ]
+  },
+  "endothelial": {
+   "regex": "endothelial cell",
+   "exclude": "lymphatic",
+   "genes": [
+    "PECAM1",
+    "CLDN5",
+    "VWF"
+   ]
+  },
+  "lymphatic_ec": {
+   "regex": "lymphatic",
+   "genes": [
+    "PROX1",
+    "CCL21",
+    "TFF3"
+   ]
+  },
+  "fibroblast": {
+   "regex": "fibroblast",
+   "genes": [
+    "COL1A2",
+    "DCN",
+    "LUM"
+   ]
+  },
+  "smooth_muscle": {
+   "regex": "smooth muscle",
+   "genes": [
+    "ACTA2",
+    "MYH11",
+    "DES"
+   ]
+  },
+  "t_cell": {
+   "regex": "T cell",
+   "genes": [
+    "CD3E",
+    "CD2",
+    "TRAC"
+   ]
+  },
+  "nk": {
+   "regex": "natural killer",
+   "exclude": "T cell",
+   "genes": [
+    "NKG7",
+    "GNLY",
+    "KLRD1"
+   ]
+  },
+  "b": {
+   "regex": "B cell",
+   "exclude": "plasma",
+   "genes": [
+    "MS4A1",
+    "CD79A"
+   ]
+  },
+  "mast": {
+   "regex": "mast cell",
+   "genes": [
+    "TPSAB1",
+    "CPA3",
+    "KIT"
+   ]
+  }
+ }
+}
